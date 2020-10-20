@@ -4,6 +4,7 @@ pipeline {
 		stage('Checkout SCM') {
 			steps {
 				git 'https://github.com/ryanseee/ict3103-lab.git'
+				
 			}
 		}
 

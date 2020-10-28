@@ -1,12 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage('Checkout SCM') {
-			steps {
-				git 'ict3103-lab'
-				
-			}
-		}
+		
 
 		stage('OWASP DependencyCheck') {
 			steps {
